@@ -11,7 +11,7 @@ Step 1: Buiilding and running gem5 to dump performance counters every 10k instru
 *Command:*
 
 	$ cd $GEM5_PATH
-	$ git clone
+	$ git clone https://github.com/PerSpectron/gem5-PerSpectron.git
 	$ cd gem5-PerSpectron
 	$ scons build/X86/gem5.opt
 	$ $GEM5_PATH/gem5-PerSpectron/build/X86/gem5.opt -d [stats_path]                         \
