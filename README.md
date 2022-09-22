@@ -14,7 +14,7 @@ Step 1: Buiilding and running gem5 to dump performance counters every 10k instru
 	$ git clone https://github.com/PerSpectron/gem5-PerSpectron.git
 	$ cd gem5-PerSpectron
 	$ scons build/X86/gem5.opt
-	$ $GEM5_PATH/gem5-PerSpectron/build/X86/gem5.opt -d [stats_path]                         \
+	$ $GEM5_PATH/gem5-PerSpectron/build/X86/gem5.opt -d [stats_path]        \
 	configs/example/se.py --bp-type=PerceptronLocalBP --cpu-type DerivO3CPU \
 	--l1d_size 32kB --l1d_assoc 8 --l1i_size 32kB --l1d_assoc 8             \
 	--l2_size 2MB --l2_assoc 16 --l2cache --caches --cmd [binary]           \
