@@ -5,12 +5,16 @@ Attack Phases", 41st IEEE/ACM International Conference on Computer-Aided Design 
 # How to Run Perspectron
 
 
-Step 1: Running gem5 simulation and dumping the performance counters every 10k instructions:
+Step 1: Buiilding and running gem5 to dump performance counters every 10k instructions:
 --------------------------------------------------------------------------------------------
 
 *Command:*
 
-	$ $GEM5_PATH/build/X86/gem5.opt -d [stats_path]                         \
+	$ cd $GEM5_PATH
+	$ git clone
+	$ cd gem5-PerSpectron
+	$ scons build/X86/gem5.opt
+	$ $GEM5_PATH/gem5-PerSpectron/build/X86/gem5.opt -d [stats_path]                         \
 	configs/example/se.py --bp-type=PerceptronLocalBP --cpu-type DerivO3CPU \
 	--l1d_size 32kB --l1d_assoc 8 --l1i_size 32kB --l1d_assoc 8             \
 	--l2_size 2MB --l2_assoc 16 --l2cache --caches --cmd [binary]           \
