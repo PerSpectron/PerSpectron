@@ -5,7 +5,7 @@ Attack Phases", 41st IEEE/ACM International Conference on Computer-Aided Design 
 # How to Run Perspectron
 
 
-Step 1: Buiilding and running gem5 to dump performance counters every 10k instructions:
+Step 1: Building and running gem5 to dump performance counters every 10k instructions:
 --------------------------------------------------------------------------------------------
 
 *Command:*
