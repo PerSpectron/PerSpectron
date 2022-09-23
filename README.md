@@ -1,13 +1,10 @@
-# Citation
+# Overview
 
-Results of this repo are presented in our Spectify paper [1]. The implementation provided in this repo originates from the PerSpectron project [2]. The authors of PerSpectron communicated the highly correlated gem5 features for speculative execuation attacks used in their paper. We implemented this repo based on these gem5 features and the implementations details described in the PerSpectron paper.
+This repository contains an implementation of the PerSpectron hardware-based side-channel detector, augmented with scripts to provide a method for use and experimentation. Results produced by code in this repository are presented in the Spectify paper [[1](#paper-spectify)]. The implementation provided in this repo originates from the PerSpectron project [[2](#paper-perspectron)]. The authors of PerSpectron have shared their highly-correlated gem5 features for speculative execuation attacks used in their paper. The authors of the Specfity paper [[1](#paper-spectify)] developed this repository based on these gem5 features and the implementation details described in the PerSpectron work [[2](#paper-perspectron)].
 
-Please cite these papers for this repo:
+<a id="paper-spectify">[1] Arash Pashrashid, Ali Hajiabadi, Trevor E. Carlson, "Fast, Robust and Accurate Detection of Cache-based Spectre Attack Phases," 41st IEEE/ACM International Conference on Computer-Aided Design (ICCAD '22) [doi:10.1145/3508352.3549330](https://doi.org/10.1145/3508352.3549330)</a>
 
-[1] A. Pashrashid, A. Hajiabadi, T. E. Carlson, "Fast, Robust and Accurate Detection of Cache-based Spectre
-Attack Phases", 41st IEEE/ACM International Conference on Computer-Aided Design (ICCAD '22) 
-
-[2] Mirbagher-Ajorpaz, Samira, Gilles Pokam, Esmaeil Mohammadian-Koruyeh, Elba Garza, Nael Abu-Ghazaleh, and Daniel A. Jiménez. "Perspectron: Detecting invariant footprints of microarchitectural attacks with perceptron." 53rd Annual IEEE/ACM International Symposium on Microarchitecture (MICRO '20)
+<a id="paper-perspectron">[2] Samira Mirbagher-Ajorpaz, Gilles Pokam, Esmaeil Mohammadian-Koruyeh, Elba Garza, Nael Abu-Ghazaleh, and Daniel A. Jiménez. "PerSpectron: Detecting Invariant Footprints of Microarchitectural Attacks with Perceptron," 53rd Annual IEEE/ACM International Symposium on Microarchitecture (MICRO '20) [doi:10.1109/MICRO50266.2020.00093](https://doi.org/10.1109/MICRO50266.2020.00093)</a>
 
 # How to Run Perspectron
 
