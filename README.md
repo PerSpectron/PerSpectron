@@ -1,6 +1,12 @@
 # Citation
-A. Pashrashid, A. Hajiabadi, T. E. Carlson, "Fast, Robust and Accurate Detection of Cache-based Spectre
+
+Results of this repo are presented in our Spectify paper [1]. The implementation provided in this repo originates from the PerSpectron project [2]. The authors of PerSpectron communicated the highly correlated gem5 features for speculative execuation attacks used in their paper. We implemented this repo based on these gem5 features and the implementations details described in the PerSpectron paper.
+
+Please cite these papers for this repo:
+
+[1] A. Pashrashid, A. Hajiabadi, T. E. Carlson, "Fast, Robust and Accurate Detection of Cache-based Spectre
 Attack Phases", 41st IEEE/ACM International Conference on Computer-Aided Design (ICCAD '22) 
+[2] Mirbagher-Ajorpaz, Samira, Gilles Pokam, Esmaeil Mohammadian-Koruyeh, Elba Garza, Nael Abu-Ghazaleh, and Daniel A. Jiménez. "Perspectron: Detecting invariant footprints of microarchitectural attacks with perceptron." 53rd Annual IEEE/ACM International Symposium on Microarchitecture (MICRO '20)
 
 # How to Run Perspectron
 
