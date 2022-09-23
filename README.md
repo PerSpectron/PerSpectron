@@ -6,6 +6,7 @@ Please cite these papers for this repo:
 
 [1] A. Pashrashid, A. Hajiabadi, T. E. Carlson, "Fast, Robust and Accurate Detection of Cache-based Spectre
 Attack Phases", 41st IEEE/ACM International Conference on Computer-Aided Design (ICCAD '22) 
+
 [2] Mirbagher-Ajorpaz, Samira, Gilles Pokam, Esmaeil Mohammadian-Koruyeh, Elba Garza, Nael Abu-Ghazaleh, and Daniel A. Jiménez. "Perspectron: Detecting invariant footprints of microarchitectural attacks with perceptron." 53rd Annual IEEE/ACM International Symposium on Microarchitecture (MICRO '20)
 
 # How to Run Perspectron
